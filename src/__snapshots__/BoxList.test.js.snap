@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`creates/matches  snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <form
+      class="boxForm"
+    >
+      <p>
+        Create a Box
+      </p>
+      <label
+        for="height"
+      >
+         Box Height
+        <input
+          id="height"
+          name="height"
+          placeholder="89"
+          required=""
+          type="number"
+          value=""
+        />
+      </label>
+      <label
+        for="width"
+      >
+         Box Width
+        <input
+          id="width"
+          name="width"
+          placeholder="14"
+          required=""
+          type="number"
+          value=""
+        />
+      </label>
+      <label
+        for="backgroundColor"
+      >
+         Box Background Color
+        <input
+          id="backgroundColor"
+          name="backgroundColor"
+          placeholder="peachpuff"
+          required=""
+          type="text"
+          value=""
+        />
+      </label>
+      <button
+        class="NewBoxForm-button"
+      >
+        Create Box!
+      </button>
+    </form>
+    <div
+      style="height: 88px; width: 90px; background-color: peachpuff;"
+    >
+      <button>
+         X 
+      </button>
+    </div>
+    <div
+      style="height: 78px; width: 77px; background-color: pink;"
+    >
+      <button>
+         X 
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`creates/matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <form
+      class="boxForm"
+    >
+      <p>
+        Create a Box
+      </p>
+      <label
+        for="height"
+      >
+         Box Height
+        <input
+          id="height"
+          name="height"
+          placeholder="89"
+          required=""
+          type="number"
+          value=""
+        />
+      </label>
+      <label
+        for="width"
+      >
+         Box Width
+        <input
+          id="width"
+          name="width"
+          placeholder="14"
+          required=""
+          type="number"
+          value=""
+        />
+      </label>
+      <label
+        for="backgroundColor"
+      >
+         Box Background Color
+        <input
+          id="backgroundColor"
+          name="backgroundColor"
+          placeholder="peachpuff"
+          required=""
+          type="text"
+          value=""
+        />
+      </label>
+      <button
+        class="NewBoxForm-button"
+      >
+        Create Box!
+      </button>
+    </form>
+    <div
+      style="height: 88px; width: 90px; background-color: peachpuff;"
+    >
+      <button>
+         X 
+      </button>
+    </div>
+    <div
+      style="height: 78px; width: 77px; background-color: pink;"
+    >
+      <button>
+         X 
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

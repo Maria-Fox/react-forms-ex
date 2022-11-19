@@ -1,8 +1,15 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+it('renders without crashing', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
 });
+
+it("matches snapchot", function () {
+  const { asFragment, getByText } = render(<App />);
+
+  const header = getByText("Color Boxes");
+  
+  expect(asFragment()).toMatchSnapshot();
+  expect(header).toBeInTheDocument();
+})
